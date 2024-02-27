@@ -1,0 +1,61 @@
+footer
+{
+  padding-left: 150px;
+  background: linear-gradient(to right, rgba(24, 22, 35, 1),rgba(23, 36, 91, 1)); 
+  align-items: start;
+  color: rgb(245, 241, 241);
+  height: 400px;
+  width: 1363px;
+}
+.footer-class
+{
+  display: flex;
+}
+.footer-style
+{
+  display: flex;
+  flex: 1;
+  font-family: Arial;
+}
+.footer-style2
+{
+  display: flex;
+  flex: 2;
+  font-family: Arial;
+}
+.textBox
+{
+  height: 35px;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  width: 300px;
+  border-radius: 50px;
+  background-color: rgba(23, 36, 91, 1);
+}
+.textBox::placeholder
+{
+  color: white;
+}
+.textBox:focus
+{
+  border: 0.5px solid white;
+  outline: 0px solid white;
+}
+.footer-arrow
+{
+  width: 30px;
+  border-radius: 30px;
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+#brand-logo-container{
+  display: flex;
+}
+.brand-logo
+{
+  width: 30px;
+  margin-right: 20px;
+}
+

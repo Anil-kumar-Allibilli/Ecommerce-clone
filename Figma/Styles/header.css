@@ -1,0 +1,53 @@
+#header-section
+{
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 7px;
+  right: 0;
+  background-color:rgba(20, 18, 29, 1);
+  height: 112px;
+  width: 1515px;
+  z-index: 1;
+}
+
+.left-section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 112px;
+}
+.ricoZ-image
+{
+  width: 134px;
+  height: 74px;
+}
+.middle-section
+{
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  font-family: Arial;
+  justify-content: space-between;
+  align-items: center;
+  width: 466px;
+}
+.right-section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.Sign-Up-Button
+{
+  width: 137px;
+  height: 56px;
+  border-radius: 50px;
+  padding: 13px 30px 13px 30px;
+  background-color: rgba(0, 48, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  font-weight: bold;
+}
